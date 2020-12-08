@@ -1,0 +1,12 @@
+Algoritmo DivisiónSiNoEsCero
+	
+	Escribir "Dame dos números para dividirlos"
+	Leer num1, num2
+	
+	Si num2 != 0 Entonces
+		Escribir "La solución es " num1/num2
+	SiNo
+		Escribir "No se puede dividir entre 0"
+	FinSi
+	
+FinAlgoritmo

@@ -1,0 +1,16 @@
+Algoritmo PositivoNegativo
+	
+	Escribir  "Dame un número"
+	Leer num
+	
+	Si num >= 0 Entonces
+		Si num > 0 Entonces
+			Escribir "El número es positivo"
+		SiNo
+			Escribir "El número es cero"
+		FinSi
+	SiNo
+		Escribir "El número es negativo"
+	FinSi
+	
+FinAlgoritmo

@@ -1,0 +1,18 @@
+Algoritmo MAYORIGUAL
+	
+	Escribir "Dime un numero" 
+	Leer primerNumero 
+	Escribir "Dime otro numero" 
+	Leer segundoNumero 
+
+	Si primerNumero >= segundoNumero Entonces 
+		Si primerNumero > segundoNumero Entonces
+			Escribir "El primero es mayor" 
+		SiNo
+			Escribir "Son iguales"
+		FinSi
+	SiNo 
+		Escribir "El segundo es mayor" 
+	FinSi
+	
+FinAlgoritmo

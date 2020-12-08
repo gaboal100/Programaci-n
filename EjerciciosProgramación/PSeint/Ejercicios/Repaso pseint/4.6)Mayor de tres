@@ -1,0 +1,25 @@
+Algoritmo MayorDeTres
+	
+	Escribir "Dame tres números para comparar"
+	Leer a, b, c
+	
+	Si a >= b Y a >= c Entonces
+		Si a > b Y a > c Entonces
+			Escribir "El mayor es " a
+		SiNo
+			Si a = b Y a = c Entonces
+				Escribir "Son todos iguales"
+			FinSi
+		FinSi
+	SiNo
+		Si b >= a Y b >= c Entonces
+			Escribir "El mayor es " b
+		SiNo
+			Si c >= a Y c >= b Entonces
+				Escribir "El mayor es " c
+			FinSi
+		FinSi
+	FinSi
+	
+	
+FinAlgoritmo
